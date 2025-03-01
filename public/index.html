@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark " id="navbar">
+        <a class="navbar-brand" href="#"><h3><b><i>Shopify</i></b></h3></a>
+        
+
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" >Categories</a>
+                    <div class="dropdown-menu "  >
+                        <a class="dropdown-item text-dark" href="#">Electronics</a>
+                        <a class="dropdown-item text-dark" href="#">Clothings</a>
+                        <a class="dropdown-item text-dark" href="#">Groceries</a>
+                        <a class="dropdown-item text-dark" href="#">Furniture</a>
+                        <a class="dropdown-item text-dark" href="#">Food items</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Offerzone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cart</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <button class="btn btn-danger" href="#register" data-toggle="modal">Register</button>
+            <button class="btn btn-danger" href="#login" data-toggle="modal">Login</button>
+          </span>
+        </div>
+      </nav>
+
+
+
+
+      <!-- jumbotron -->
+      <div class="jumbotron  text-light" id="hero">
+        <div class="row"  >
+            <div class="col-md-5 col-sm-6" >
+                <h1 style="font-size: 70px;"><b>Hello Customers</b></h1>
+                <h2><b>Ready to explore <i>Shopify</i>.......!</b></h2>
+                
+                <br><br>
+                <h2><b> Diwali Sale is live (80% off)</b></h2>
+            </div>
+            <div  class="col-md-5  col-sm-6 front-image">
+                <img src="img/1.avif" class="img-fluid "  alt="background">
+            </div>
+        </div>
+        
+      </div>
+
+
+       <br><br>
+        
+
+        <!-- offerzone -->
+         <div class="container"  >
+            <div class="row offerzone" >
+
+              <div  class="col-md-5 mx-auto" >
+                <div>
+                  <img src="img/puma.jpg" alt="" >
+                </div>
+              </div>
+              <div id="slider" class="carousel slide col-md-3 mx-auto" data-ride="carousel"  >
+                  <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                      <img src="img/img1.jpg" class="d-block w-100  " alt="..." >
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img2.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img3.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img4.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="img/img5.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img6.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                  
+                    <div class="carousel-item">
+                      <img src="img/img7.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="img/img8.jpg" class="d-block w-100 " alt="...">
+                      <div class="row puma-buynow">
+                        <h5><b>80% off</b></h5>
+                        <button class="btn btn-danger">buy now</button>
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-target="#slider" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-target="#slider" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </button>
+                </div>
+                  
+            </div>
+      </div>
+
+        <br><br><br>
+        <!-- categories 1-->
+         <div class="container"  >
+          <div class="heading row"  >
+            <h2>Our Categories</h2>
+            
+          </div>
+          <br>
+          <!-- row1 -->
+          <div class="row"  >
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box1-1.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                   Special offers
+                   <a href="/" style="float: right;">shop more</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box1-2.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Lunar New Year
+                  <a href="/" style="float: right;" >shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box1-3.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                    Soft toys
+                    <a href="/" style="float: right;">shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box1-4.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Deals with Pcs
+                  <a href="/" style="float: right;">shop more</a>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <!-- row2 -->
+          <div class="row"  >
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box2-1.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Grooming Stuff
+                   <a href="/" style="float: right;">shop more</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box2-2.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Lastest Devices
+                  <a href="/" style="float: right;" >shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box2-3.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Pet's Devices
+                    <a href="/" style="float: right;">shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box2-4.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Fasion Mart
+                  <a href="/" style="float: right;">shop more</a>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+         </div>
+         <br><br><br>
+
+         
+
+
+              <!-- slider1 -->
+              <div class="container">
+                <div class="heading row"  >
+                  <h2>Best Sellers</h2>  
+                </div>
+
+                <div class="product-slider products">
+                  <a href="#" style="color: rgb(114, 90, 247); font-size:small;">see all</a>
+                  <div class="products">
+            
+                    <button id="btn1" onclick="redirect(1)" class="threedbtn" >3d</button>
+                    <img src="img/product3-1.jpg" alt="" >
+                    <button id="btn2" onclick="redirect(2)"class="threedbtn" >3d</button>
+                    <img src="img/product3-2.png" alt="" >
+                    <button id="btn3" onclick="redirect(3)"class="threedbtn">3d</button>
+                    <img src="img/product3-3.jpg" alt="" >
+                    <button id="btn4" onclick="redirect(4)"class="threedbtn">3d</button>
+                    <img src="img/product3-4.jpeg" alt=" ">
+                    <button id="btn5" onclick="redirect(5)"class="threedbtn">3d</button>
+                    <img src="img/product3-5.jpg" alt="" >
+                    <button id="btn6" onclick="redirect(6)"class="threedbtn">3d</button>
+                    <img src="img/product3-6.jpg" alt="" >
+                    <button id="btn7" onclick="redirect(7)"class="threedbtn">3d</button>
+                    <img src="img/product3-7.webp" alt=" ">
+                    <button id="btn8" onclick="redirect(8)"class="threedbtn">3d</button>
+                    <img src="img/product3-8.jpg" alt="" >
+                    <button id="btn9" onclick="redirect(9)"class="threedbtn">3d</button>
+                    <img src="img/product3-9.jpg" alt="" >
+                    <button id="btn10" onclick="redirect(10)" class="threedbtn">3d</button>
+                    <img src="img/product3-10.png" alt=" ">
+                </div>
+              </div>
+              </div>
+
+              <br><br><br>
+
+
+              <!-- categories 2-->
+         <div class="container"  >
+          <div class="heading row"  >
+            <h2>Our Categories</h2>
+            
+          </div>
+          <br>
+          <!-- row1 -->
+          <div class="row"  >
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box3-1.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                   Painting Stuff
+                   <a href="/" style="float: right;">shop more</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box3-2.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Laptop
+                  <a href="/" style="float: right;" >shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box3-3.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                    wheel Chairs
+                    <a href="/" style="float: right;">shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box3-4.jpg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Gaming things
+                  <a href="/" style="float: right;">shop more</a>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <!-- row2 -->
+          <div class="row"  >
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box4-1.jpeg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Electronics
+                   <a href="/" style="float: right;">shop more</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box4-2.jpeg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Lastest Devices
+                  <a href="/" style="float: right;" >shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box4-3.jpeg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  iphone Devices
+                    <a href="/" style="float: right;">shop more</a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/box4-4.jpeg" class="img-fluid" >
+                </div>
+                <div class="card-footer">
+                  Fasion Mart
+                  <a href="/" style="float: right;">shop more</a>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+         </div>
+         <br><br><br>
+             
+              
+          
+          <!-- slider2 -->
+           <div class="container">
+            <div class="heading row"  >
+              <h2>Best Sellers</h2>  
+            </div>
+            <div class="product-slider products">
+              <a href="#" style="color: rgb(114, 90, 247); font-size:small;">see all</a>
+              <div class="products">
+                  <button id="btn11" onclick="redirect(11)" class="threedbtn">3d</button>
+                  <img src="img/product4-1.jpg" alt="">
+                  <button id="btn12" onclick="redirect(12)" class="threedbtn">3d</button>
+                  <img src="img/product4-2.jpg" alt="">
+                  <button id="btn13" onclick="redirect(13)" class="threedbtn">3d</button>
+                  <img src="img/product4-3.png" alt="">
+                  <button id="btn14" onclick="redirect(14)" class="threedbtn">3d</button>
+                  <img src="img/product4-3.webp" alt="">
+                  <button id="btn15" onclick="redirect(15)" class="threedbtn">3d</button>
+                  <img src="img/product4-5.jpg" alt="">
+                  <button id="btn16" onclick="redirect(16)" class="threedbtn">3d</button>
+                  <img src="img/product4-6.png" alt="">
+                  <button id="btn17" onclick="redirect(17)" class="threedbtn">3d</button>
+                  <img src="img/product4-7.png" alt="">
+                  <button id="btn18" onclick="redirect(18)" class="threedbtn">3d</button>
+                  <img src="img/product4-8.jpg" alt="">
+                  <button id="btn19" onclick="redirect(19)" class="threedbtn">3d</button>
+                  <img src="img/product4-9.webp" alt="">
+                  <button id="btn20" onclick="redirect(20)" class="threedbtn">3d</button>
+                  <img src="img/product4-10.jpeg" alt="">
+              </div>
+          </div>
+           </div>
+          <br><br><br>
+         <!-- about us -->
+         <div class="container" >
+            <div class="heading row" style="align-items: center; justify-content: center;">
+              <h1>about us</h1>
+            </div>
+            <div class="row"  >
+              <div class="col-md-6">
+                <div>
+                  <img src="img/about_us.jpg" class="img-fluid" alt="">
+                </div>
+                
+              </div>
+              <div class="col-md-6 p-5" >
+                <h3 style="text-align: center;"><b>Shopify</b></h3><br>
+                <p class="heading" style="font-size: larger;">Shopify is a popular eCommerce platform that allows businesses to create and manage online stores with ease. It offers customizable templates, secure payment processing, and various integrations for marketing, shipping, and inventory management. With Shopify, entrepreneurs can sell products worldwide without needing advanced technical skills, making it a great choice for startups and established brands alike.</p>
+              </div>
+            </div>    
+         </div>
+
+         <br><br><br>
+         <br>
+         <!-- /contact -->
+         <div class="container" >
+          <div class="heading row"  >
+            <h2>Contact Us</h2> 
+          </div>
+            <div class="row" >
+              <div class="col-md-5 col-sm-6 col-xs-12 p-5 contact" >
+                  <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>  34-lane(21) Yashwantnagar , hupari (416203), Dist-Kolhapur ,Tal -Hatkangle </li>
+                    <li><i class="fa-solid fa-phone"></i>  91+ 8080451908</li>
+                    <li><i class="fa-solid fa-envelope"></i>   rodeharsh.0027@gmail.com</li>
+                    <li><i class="fa-brands fa-instagram"></i>   https://www.instagram.com/harsh_rode</li>
+                    <li><i class="fa-brands fa-facebook"></i>   https://www.facebook.com/harsh_rode</li><br>
+                    <li>View in Map :</li>
+                    
+                  </ul>
+                  <div class="map pl-4"><iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d557.8757033234356!2d74.40493979074076!3d16.6232124883565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1740804370423!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+              </div>
+              <div class="col-md-7 col-sm-6 col-xs-12 p-5" >
+
+              <div class="row" >
+                <div class="col-md-10">
+                  <form action="" class="pt-2 ">
+                  
+                      <div class="card">
+                          <div class="card-header">
+                              <h4>Join us</h4>
+                          </div>
+                          <div class="card-body">
+                            Fullname :<input type="text" class="form-control mb-2">
+                            Email id :<input type="email" class="form-control mb-2">
+                            Address :<input type="text" class="form-control mb-2">
+                            Contact :<input type="tel" class="form-control mb-2">
+                          </div>
+                          <div class="card-footer">
+                            <button class="btn btn-danger btn-outline">submit</button>
+                          </div>
+                         
+                      </div>
+                  
+                  </form>
+                </div>  
+              </div>
+      
+
+              </div>
+            </div>
+         </div>
+
+
+
+
+
+        
+
+
+
+
+
+      <!-- modal-signup -->
+      <div class="modal " id="register">
+        <div class="modal-dailog modal-dialog-centered "> <!--Used modal-dialog-centered → This ensures the modal is vertically centered                                          Use Bootstrap's modal size classes (modal-sm, modal-lg, modal-xl) or custom CSS to set a fixed width.(in modal-dailog)-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Registration form </h2>
+                </div>
+                <div class="modal-body">
+                        <form action="">
+                            Enter name : <input type="text "  class="form-control" placeholder="Enter name"><br>
+                            Enter email : <input type="email" class="form-control" placeholder="Enter Email"><br>
+                            Enter password : <input type="password" class="form-control" placeholder="Enter Password"><br>
+                            <button class="btn btn-dark">Register</button><br>
+                        </form>
+                        <p>login to your account,<a href="#login" data-dismiss="modal" data-toggle="modal">login</a></p> <!-- to traverse from signup modal to login modal-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">close</button><!-- data-dismiss to close thr current modal-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- modal-login -->
+    <div class="modal" id="login">
+        <div class="modal-dailog modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Login form </h2>
+                </div>
+                <div class="modal-body">
+                        <form action=""> 
+                            Enter email : <input type="email" class="form-control" placeholder="Enter Email"><br>
+                            Enter password : <input type="password" class="form-control" placeholder="Enter Password"><br>
+                            <button class="btn btn-dark">login</button><br>
+                        </form>
+                        <p>don't have an account,<a href="#register" data-dismiss="modal" data-toggle="modal">Signup</a></p><!-- to traverse from login modal to signup modal-->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+
+
+       
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="../src/scrift.js"></script>
+  </body>
+</html>
