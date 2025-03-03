@@ -90,5 +90,12 @@ img{
     list-style: none;
     line-height: 30px;
 }
+footer{
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    border: #cc1324 2px solid;
+}
 
 
