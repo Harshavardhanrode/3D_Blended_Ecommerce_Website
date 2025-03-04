@@ -95,7 +95,16 @@ footer{
     width: 100%;
     overflow: hidden;
     margin: 0px;
-    border: #cc1324 2px solid;
 }
+.list-unstyled li{
+    font-size: small;
+}
+ul.list-unstyled li:hover a{
+    color:  #cc1324 !important; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+
 
 
