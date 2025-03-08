@@ -2,6 +2,13 @@
 .navbar a{
     color: white; 
 }
+.navbar-toggler-icon{
+    font-size: 25px;
+
+}
+.navbar-toggler{
+    border: #fff;
+}
 #hero .row{
     justify-content:space-around;
     align-items: center;

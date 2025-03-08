@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8" />
     <title>3d scene</title>
-     <link rel="icon" href="../images/pic/logo_taskbar.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+     <link rel="icon" href="../public/img/logo_taskbar.png">
     
 
     <style>
@@ -20,13 +21,14 @@
           text-align: center;
         }
 
-        #container3D canvas {
+          #container3D canvas {
           width: 100vw !important;
           height: 100vh !important;
           position: absolute;
           top: 0;
           left: 0;
-        }
+         
+        }  
     </style>
     
   </head>
@@ -35,9 +37,12 @@
       <h1></h1>
     </header>
 
-    <main>
-      <div id="container3D"></div>
-    </main>
+    <div >
+      
+        <div id="container3D" class="" ></div>
+     
+      
+    </div>
 
     <script type="module" src="Js/main.js"></script>
     
